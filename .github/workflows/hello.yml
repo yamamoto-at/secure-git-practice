@@ -1,8 +1,8 @@
-name: Hello # work flow name
+name: Hello # workflowname
 on: push # event
 jobs: # job
- hello: # job name
- runs-on: ubuntu-latest # runner
- steps: # step
- - run: echo "Hello, world" # shell command
- - uses: actions/checkout@v4 # action
+ hello: # jobname
+  runs-on: ubuntu-latest # runner
+  steps: # step
+   - run: echo "Hello, world" # shellcommand
+   - uses: actions/checkout@v4 # action
